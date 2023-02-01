@@ -1,26 +1,29 @@
 {
   "manifest_version": 3,
-  "name": "Tick",
-  "description": "Check or Uncheck all Checkboxes on the current tab.",
+  "name": "Gyani",
+  "description": "Find short answers to one liner questions.",
   "version": "0.1",
   "icons": {
-    "16": "images/icon-16.png",
-    "32": "images/icon-32.png",
-    "48": "images/icon-48.png",
-    "64": "images/icon-64.png",
-    "128": "images/icon-128.png"
+    "16": "images/G-16.png",
+    "32": "images/G-32.png",
+    "48": "images/G-48.png",
+    "64": "images/G-64.png",
+    "128": "images/G-128.png"
   },
   "background": {
     "service_worker": "background.js"
   },
   "action": {
     "default_icon": {
-      "16": "images/icon-16.png",
-      "32": "images/icon-32.png",
-      "48": "images/icon-48.png",
-      "64": "images/icon-64.png",
-      "128": "images/icon-128.png"
+      "16": "images/G-16.png",
+      "32": "images/G-32.png",
+      "48": "images/G-48.png",
+      "64": "images/G-64.png",
+      "128": "images/G-128.png"
     }
   },
-  "permissions": ["scripting", "activeTab"]
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ]
 }
